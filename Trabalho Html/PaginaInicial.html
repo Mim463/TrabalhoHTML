@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel='stylesheet' type='text/css' href='./style.css'>
+  <title>Artesanatos M&L</title>
+  </head>
+  <body>
+  <div class='logo-space'>
+    <img src='./imagens/logo-no-background.png' alt='Logo da loja Artesanatos M&L' class='side-logo'>
+  </div>
+  <div>
+    <button onclick='Dark()' class='dark'>Modo escuro</button>
+    <script>
+      function Dark() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+    </script>
+  </div>
+  <header>
+    <h1 class='intro'> Olá, seja bem vindo a<br> <a href='./sub/ML.html'> Artesanatos M&L</a> </h1>
+  </header>
+  <main>
+    <h3 class='apres'> Artesanatos M&L oferece a você diversas variedades de colares, pulseiras e itens feitos por crochê para você! </h3>
+    <table>
+      <thead>
+        <tr class='itens'>
+          <th scope='col'>Tabela de itens</th>
+          <th scope='col'>Pulseiras</th>
+          <th scope='col'>Colares</th>
+          <th scope='col'>Crochês</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class='tipos'>
+          <th scope='row'>Tipos</th>
+          <ul>
+            <td>
+              <li> <span>Pérolas</span> </li>
+              <li> <span>Nylon</span> </li>
+              <li> <span>Silicone</span> </li>
+            </td>
+            <td>
+              <li> <span>Pérolas</span> </li>
+              <li> <span>Pedras</span> </li>
+              <li> <span>Pingente de madeira</span> </li>
+            </td>
+            <td>
+              <li> <span>Tapetes</span> </li>
+              <li> <span>Toalhas de mesa</span> </li>
+              <li> <span>Gorros</li>
+          </ul>
+        </tr>
+        <tr class='precos'>
+          <th scope='row'>Preços</td>
+          <td>R$XX,XX</td>
+          <td>R$XX,XX</td>
+          <td>R$XX,XX</td>
+        </tr>
+        <tr class='subs'>
+          <th scope='row'>Interessado?</td>
+          <td> <a href='./sub/pulseiras.html'> <button type='button'>Veja mais</button> </a> </td>
+          <td> <a href='./sub/colares.html'> <button type='button'>Veja mais</button> </a> </td>
+          <td> <a href='./sub/croches.html'> <button type='button'>Veja mais</button> </a> </td>
+      </tbody>
+    </table>
+  </body>
+  <footer>
+    <a href='./sub/ML.html> <p>Sobre</p> </a>
+  </footer>
+
+</html>
